@@ -1,6 +1,6 @@
 # WhatsApp Desktop Client
 
-[![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/whatsapp)
+[![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/whatsapp-desktop-linux)
 
 A sleek, unofficial desktop client for WhatsApp, built with Electron. Experience seamless messaging on your Linux desktop with real-time notifications and media sharing.
 
@@ -21,7 +21,7 @@ A sleek, unofficial desktop client for WhatsApp, built with Electron. Experience
 ### From Snap Store (Recommended)
 
 ```bash
-sudo snap install whatsapp
+sudo snap install whatsapp-desktop-linux
 ```
 
 ### Build from Source
@@ -58,7 +58,7 @@ sudo snap install whatsapp
 Launch the app from your applications menu or via terminal:
 
 ```bash
-whatsapp
+whatsapp-desktop-linux
 ```
 
 ## 🗑️ Uninstallation
@@ -66,7 +66,7 @@ whatsapp
 To remove the app:
 
 ```bash
-sudo snap remove whatsapp
+sudo snap remove whatsapp-desktop-linux
 ```
 
 ## 🤝 Contributing

@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp",
+  "name": "whatsapp-desktop-linux",
   "version": "1.2.1",
   "description": "A sleek, unofficial desktop client for WhatsApp, built with Electron for seamless messaging on Linux.",
   "main": "src/main.js",
@@ -24,7 +24,7 @@
     "dev": "npm start"
   },
   "build": {
-    "appId": "com.evildevill.whatsappdesktop",
+    "appId": "com.evildevill.whatsappdesktoplinux",
     "productName": "WhatsApp Desktop",
     "linux": {
       "target": "snap",

@@ -15,7 +15,7 @@ This comprehensive guide walks you through installing the WhatsApp Desktop Clien
 The easiest way to install:
 
 ```bash
-sudo snap install whatsapp
+sudo snap install whatsapp-desktop-linux
 ```
 
 ### Method 2: Build from Source
@@ -49,7 +49,7 @@ For developers or custom builds:
 Launch from your app menu or terminal:
 
 ```bash
-whatsapp
+whatsapp-desktop-linux
 ```
 
 ## 🗑️ Uninstallation
@@ -57,7 +57,7 @@ whatsapp
 Remove the app easily:
 
 ```bash
-sudo snap remove whatsapp
+sudo snap remove whatsapp-desktop-linux
 ```
 
 ## 🔧 Troubleshooting

@@ -1,4 +1,4 @@
-name: whatsapp
+name: whatsapp-desktop-linux
 base: core24
 version: '1.2.0'  # Update version
 summary: Unofficial WhatsApp Desktop Client For Linux
