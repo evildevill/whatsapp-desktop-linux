@@ -1,0 +1,34 @@
+name: whatsapp
+base: core24
+version: '1.2.0'  # Update version
+summary: Unofficial WhatsApp Desktop Client For Linux
+description: |
+  A simple and efficient desktop client for WhatsApp, using Electron to provide a seamless experience on Linux.
+
+grade: stable
+confinement: strict
+
+apps:
+  whatsapp:
+    command: whatsapp-wasii
+    extensions: [gnome-3-38]  # Keep GNOME 3.38 extension
+    plugs:
+      - network
+      - network-bind
+      - desktop
+      - desktop-legacy
+      - wayland
+      - x11
+      - opengl
+
+parts:
+  whatsapp-desktop-client:
+    plugin: dump
+    source: .
+    stage-packages:
+      - libnss3
+      - libxss1
+      - libgtk-3-0
+      - libglib2.0-bin  # Ensure GTK apps work properly
+      - libgdk-pixbuf2.0-0  # Fix missing icons issue
+      - libdrm2  # Required for graphics

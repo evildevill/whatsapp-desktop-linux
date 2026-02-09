@@ -1,0 +1,51 @@
+{
+  "name": "whatsapp",
+  "version": "1.2.1",
+  "description": "A sleek, unofficial desktop client for WhatsApp, built with Electron for seamless messaging on Linux.",
+  "main": "src/main.js",
+  "type": "module",
+  "author": "Waseem Akram <evildevill@github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evildevill/whatsapp-desktop-linux.git"
+  },
+  "keywords": [
+    "electron",
+    "whatsapp",
+    "linux",
+    "messaging",
+    "unofficial"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --linux snap",
+    "build": "electron-builder --linux snap",
+    "dev": "npm start"
+  },
+  "build": {
+    "appId": "com.evildevill.whatsappdesktop",
+    "productName": "WhatsApp Desktop",
+    "linux": {
+      "target": "snap",
+      "icon": "assets/icon.png",
+      "category": "Utility",
+      "synopsis": "Unofficial WhatsApp Desktop Client",
+      "description": "A simple and efficient desktop client for WhatsApp, using Electron to provide a seamless experience on Linux."
+    }
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "electron-context-menu": "^4.0.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "homepage": "https://github.com/evildevill/whatsapp-desktop-linux#readme",
+  "bugs": {
+    "url": "https://github.com/evildevill/whatsapp-desktop-linux/issues"
+  }
+}
