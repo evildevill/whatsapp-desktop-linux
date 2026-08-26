@@ -32,6 +32,15 @@
       "category": "Utility",
       "synopsis": "Unofficial WhatsApp Desktop Client",
       "description": "A simple and efficient desktop client for WhatsApp, using Electron to provide a seamless experience on Linux."
+    },
+    "snap": {
+      "confinement": "strict",
+      "grade": "stable",
+      "plugs": [
+        "default",
+        "camera",
+        "audio-record"
+      ]
     }
   },
   "devDependencies": {
